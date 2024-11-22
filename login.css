@@ -3,34 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
-.face2{
+
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 500px;
   margin-left: 10%;
   margin-bottom: 10%;
- 
-
 }
 
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f2f5;
 }
-.face{
+
+.intro {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
-
-}
-.face h1 {
-  color:blue ;
-  
 }
 
-.login-container {
+.intro h1 {
+  color: blue;
+}
+
+.login-wrapper {
   width: 100%;
   max-width: 400px;
   margin: 100px auto;
@@ -41,9 +39,7 @@ body {
   text-align: center;
 }
 
-
-
-.login-form input {
+.form-wrapper input {
   width: 100%;
   padding: 12px;
   margin: 10px 0;
@@ -52,10 +48,10 @@ body {
   font-size: 16px;
 }
 
-.login-form button {
+.form-wrapper button {
   width: 100%;
   padding: 12px;
-  background-color:blue;
+  background-color: blue;
   color: white;
   font-size: 18px;
   border: none;
@@ -64,7 +60,7 @@ body {
   margin-top: 10px;
 }
 
-.forgot-link {
+.password-link {
   display: block;
   margin-top: 10px;
   margin: 12px;
@@ -73,9 +69,7 @@ body {
   font-size: 14px;
 }
 
-
-
-.create-account button {
+.new-account button {
   width: 70%;
   padding: 12px;
   margin: 22px;
@@ -86,4 +80,5 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+
 
